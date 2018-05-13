@@ -167,7 +167,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (= 3.3.7)
+  bootstrap-sass
   byebug (= 9.0.6)
   coffee-rails (= 4.2.2)
   jbuilder (= 2.7.0)
