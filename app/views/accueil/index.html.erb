@@ -1,4 +1,5 @@
 <% provide(:title,"Home") %>
+<body onload="$('#myCarousel').carousel()">
 <div class="bs-example">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
@@ -11,9 +12,17 @@
         <div class="carousel-inner">
             <div class="item active">
                 <img src="https://vignette.wikia.nocookie.net/date-a-live/images/7/7c/Charakurumi4_0.png/revision/latest?cb=20141024042045" alt="First Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>image1</h3>
+                    <p>image1</p>
+                </div>
             </div>
             <div class="item">
                 <img src="https://vignette.wikia.nocookie.net/date-a-live/images/7/7c/Charakurumi4_0.png/revision/latest?cb=20141024042045" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h3>image2</h3>
+                        <p>image2</p>
+                </div>
             </div>
             <div class="item">
                 <img src="https://vignette.wikia.nocookie.net/date-a-live/images/7/7c/Charakurumi4_0.png/revision/latest?cb=20141024042045" alt="Third Slide">
@@ -28,3 +37,4 @@
         </a>
     </div>
 </div>
+</body>
